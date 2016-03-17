@@ -3,7 +3,7 @@ Xcode 中文输入法下快速敲出单行注释符，在连续写多行注释�
 
 1.运行即可直接将插件安装在程序中
 
-2.效果图如下
+2.效果图如下  
 ![Screenshot](https://github.com/chenyu1520/CommentPlugin/blob/master/注释快捷键.gif)
 
 注意

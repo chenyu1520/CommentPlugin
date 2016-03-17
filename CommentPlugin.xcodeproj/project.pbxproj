@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD95B2801C9A4DA5000F32F5 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD95B27F1C9A4DA5000F32F5 /* AppKit.framework */; };
+		DD95B2821C9A4DA5000F32F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD95B2811C9A4DA5000F32F5 /* Foundation.framework */; };
+		DD95B2861C9A4DA5000F32F5 /* CommentPlugin.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = DD95B2851C9A4DA5000F32F5 /* CommentPlugin.xcscheme */; };
+		DD95B2891C9A4DA5000F32F5 /* CommentPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = DD95B2881C9A4DA5000F32F5 /* CommentPlugin.m */; };
+		DD95B28C1C9A4DA5000F32F5 /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DD95B28B1C9A4DA5000F32F5 /* NSObject_Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD95B27C1C9A4DA5000F32F5 /* CommentPlugin.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommentPlugin.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD95B27F1C9A4DA5000F32F5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		DD95B2811C9A4DA5000F32F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		DD95B2851C9A4DA5000F32F5 /* CommentPlugin.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = CommentPlugin.xcscheme; path = CommentPlugin.xcodeproj/xcshareddata/xcschemes/CommentPlugin.xcscheme; sourceTree = SOURCE_ROOT; };
+		DD95B2871C9A4DA5000F32F5 /* CommentPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommentPlugin.h; sourceTree = "<group>"; };
+		DD95B2881C9A4DA5000F32F5 /* CommentPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommentPlugin.m; sourceTree = "<group>"; };
+		DD95B28A1C9A4DA5000F32F5 /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
+		DD95B28B1C9A4DA5000F32F5 /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
+		DD95B28D1C9A4DA5000F32F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD95B27A1C9A4DA5000F32F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD95B2801C9A4DA5000F32F5 /* AppKit.framework in Frameworks */,
+				DD95B2821C9A4DA5000F32F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD95B2731C9A4DA5000F32F5 = {
+			isa = PBXGroup;
+			children = (
+				DD95B2831C9A4DA5000F32F5 /* CommentPlugin */,
+				DD95B27E1C9A4DA5000F32F5 /* Frameworks */,
+				DD95B27D1C9A4DA5000F32F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD95B27D1C9A4DA5000F32F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD95B27C1C9A4DA5000F32F5 /* CommentPlugin.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD95B27E1C9A4DA5000F32F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD95B27F1C9A4DA5000F32F5 /* AppKit.framework */,
+				DD95B2811C9A4DA5000F32F5 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD95B2831C9A4DA5000F32F5 /* CommentPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				DD95B2871C9A4DA5000F32F5 /* CommentPlugin.h */,
+				DD95B2881C9A4DA5000F32F5 /* CommentPlugin.m */,
+				DD95B28A1C9A4DA5000F32F5 /* NSObject_Extension.h */,
+				DD95B28B1C9A4DA5000F32F5 /* NSObject_Extension.m */,
+				DD95B28D1C9A4DA5000F32F5 /* Info.plist */,
+				DD95B2841C9A4DA5000F32F5 /* Supporting Files */,
+			);
+			path = CommentPlugin;
+			sourceTree = "<group>";
+		};
+		DD95B2841C9A4DA5000F32F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD95B2851C9A4DA5000F32F5 /* CommentPlugin.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD95B27B1C9A4DA5000F32F5 /* CommentPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD95B2901C9A4DA5000F32F5 /* Build configuration list for PBXNativeTarget "CommentPlugin" */;
+			buildPhases = (
+				DD95B2781C9A4DA5000F32F5 /* Sources */,
+				DD95B2791C9A4DA5000F32F5 /* Resources */,
+				DD95B27A1C9A4DA5000F32F5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommentPlugin;
+			productName = CommentPlugin;
+			productReference = DD95B27C1C9A4DA5000F32F5 /* CommentPlugin.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD95B2741C9A4DA5000F32F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ChenYu;
+				TargetAttributes = {
+					DD95B27B1C9A4DA5000F32F5 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = DD95B2771C9A4DA5000F32F5 /* Build configuration list for PBXProject "CommentPlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD95B2731C9A4DA5000F32F5;
+			productRefGroup = DD95B27D1C9A4DA5000F32F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD95B27B1C9A4DA5000F32F5 /* CommentPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD95B2791C9A4DA5000F32F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD95B2861C9A4DA5000F32F5 /* CommentPlugin.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD95B2781C9A4DA5000F32F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD95B2891C9A4DA5000F32F5 /* CommentPlugin.m in Sources */,
+				DD95B28C1C9A4DA5000F32F5 /* NSObject_Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DD95B28E1C9A4DA5000F32F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		DD95B28F1C9A4DA5000F32F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		DD95B2911C9A4DA5000F32F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = CommentPlugin/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunlands.CommentPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		DD95B2921C9A4DA5000F32F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = CommentPlugin/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunlands.CommentPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD95B2771C9A4DA5000F32F5 /* Build configuration list for PBXProject "CommentPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD95B28E1C9A4DA5000F32F5 /* Debug */,
+				DD95B28F1C9A4DA5000F32F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD95B2901C9A4DA5000F32F5 /* Build configuration list for PBXNativeTarget "CommentPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD95B2911C9A4DA5000F32F5 /* Debug */,
+				DD95B2921C9A4DA5000F32F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD95B2741C9A4DA5000F32F5 /* Project object */;
+}

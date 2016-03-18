@@ -15,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD8479461C9C02BA001DD94B /* CYPrivateHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYPrivateHeader.h; sourceTree = "<group>"; };
 		DD95B27C1C9A4DA5000F32F5 /* CommentPlugin.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommentPlugin.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD95B27F1C9A4DA5000F32F5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		DD95B2811C9A4DA5000F32F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
@@ -68,6 +69,7 @@
 		DD95B2831C9A4DA5000F32F5 /* CommentPlugin */ = {
 			isa = PBXGroup;
 			children = (
+				DD8479461C9C02BA001DD94B /* CYPrivateHeader.h */,
 				DD95B2871C9A4DA5000F32F5 /* CommentPlugin.h */,
 				DD95B2881C9A4DA5000F32F5 /* CommentPlugin.m */,
 				DD95B28A1C9A4DA5000F32F5 /* NSObject_Extension.h */,
@@ -283,6 +285,7 @@
 				DD95B2921C9A4DA5000F32F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
